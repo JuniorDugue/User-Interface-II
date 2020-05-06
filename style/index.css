@@ -1,1 +1,95 @@
 /* Add CSS styling here */
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1000px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: .5em;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background: #DCDCDC;
+    padding: 20px 50px;
+}
+
+header h2 {
+    margin-bottom: 2em;
+}
+
+header nav a {
+    padding: 10px 15px;
+    border: 1px solid black;
+    text-decoration: none;
+    background: white;
+    color: black;
+}
+
+header nav a:hover {
+    padding: 10px 15px;
+    border: 1px solid black;
+    color: white;
+    background: black;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+}
+
+.btn {
+    background: #FFFFFF;
+    color: black;
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.btn:hover {
+    background: black;
+    color: white;
+}
+
+.topSection {
+    display: flex;
+    padding: 0.5em;
+}
+
+.topSection img {
+    width: 26.7em;
+}
+
+.topSection div {
+    padding: 4em 0 0 1em;
+}
+
+.bottomSection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bottomSection div.img {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 0.5em;
+    width: 25%;
+    height: 100%;
+}
+
+.bottomSection .img p {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background: #DCDCDC;
+    padding: 50px;
+    margin-top: 50px;
+}
